@@ -1,0 +1,441 @@
+
+1. console.log
+2.screen concatenation is using +
+3.use let instead of const or var
+4. datatypes: array,object string var
+
+//common string methods
+5.var fruits="banana/norange"
+6. fruit.indexOf('b') checks for letter b and the index value
+7. fruit.slice(2,6) starts slicing from the second index to the 6th index
+8.fruit.replace('nana',30);// acts like slice replaces nana with 30
+9.fruits.toUpperCase(fruit)
+10.fruits.toLowerCase(fruit)
+11.fruits.charAt(2) or fruits[0]
+12.fruits.split("")
+
+Arrays:
+let edd=['eddie','juma']
+let edd= new Array('edd','juma')
+
+change array values()
+let edd[0]="Hum"
+
+
+//common array methods
+edd.toString()
+edd.join('-')// joins array values with (-)
+ee.pop() // removes last value from array
+ee.push('Otieno') //adds value to array
+ed[2]="Odhesh"
+ed.shift() //removes first element from array
+ed.unshift('kiwi')
+array concatenation is a great way of joining two arrays
+edd.concat(fruits);
+
+
+
+edd.slice(1,4);
+edd.reverse()// reverses array
+edd.sort(function(a,b),return { a-b})//descending order
+edd.sort(function(a,b),return { b-a})//ascending order
+
+when you have represented your array as a string you use JSON.parse() to make it appear like an array object
+
+research more about flex
+
+document_createtextnode
+.classList.remove.(.classList)
+.classList.remove.('btn-success')
+
+document.querySelector().addEventListener
+
+function eddie(){
+    var eddie="wertyy";
+    hello(eddie);
+
+}
+function hello(eddie){}
+
+assync functions promises/resolve and timers
+
+every brosers has a js engine that converts js code to machine readable code
+node is not a language but a run-time environment for executing js function
+node should not be used in cpu intensive apps since you have to wait but data intensive spp since its assync
+
+jshint helps you better identify errors
+require fs module when working with files from node
+Event emmitter class--node
+es6 -js convention on features
+nodemon -helps you run atch nide
+express helps you in routing node
+object destructuring e.g result.error =={error}
+
+joi used for validation in node
+c.find(c=>c.d==target.id)
+the best functions have the fewest parameters
+
+factory functions vs constructor functions
+in javascript functions are objects
+primitives in js are copied by their values
+objects are copied b thier references//mem location
+circle.radius=circle['radius']
+for (let key in circle){}
+use in operator to check if property exists
+closure-- javascript is a lexical scope
+oject.defineProperty
+spread operator(...hello) can be used to combine two arrays or copy values from one array to another//acts as push
+rcf extension react
+in react after submit set state to null
+trick of convert string to numbers is to put + infront
+react router
+react.fragment used instead of div
+
+webstorm ide
+js string functions//properties
+template string concatenation
+`Hi ${name}`
+.incudes works for array and string
+type convertion(Number,boolean)
+typeOf
+instead of using bind you can use arrow functions
+react has a dom,when changes are made,compare the react dom to browser dom then updates changes
+in react arrow functions are used for binding
+stateless functional component :const function instead of class
+object destructuring
+componentDidMount is the best way to fetch data from a server and set state
+react dvpt lifecycle:
+
+1. constructor
+2. render
+3. mounted
+
+
+javascript break and continue loop concepts
+javscript callback functions
+$this keyword doesnt work with arrow function
+create regular functions and not  arrow functions inside objects 
+js higher order functions e.g filter,sort,reduce,map
++= append
+
+
+
+.getAttribute
+.setAttribute
+both come with document.querySelector
+
+dom(add,remove,toggle)
+
+
+
+go to tjhe entire public/
+assync js functions
+1. callbacks
+2. promises
+3. assync awaita
+
+matrix is an array i.e 2/3 dimensional
+Always use underscore btw 3 digits for readability
+name yoour variales well for readability
+practise ternary operator
+event delegation
+https negotiation(handshake)
+cors
+this keyword
+closure and its disadvantages
+prototypes
+== only values
+=== values and type
+how to test type NAN
+callback hell use (promise or wait in es7
+child threads node
+how to handle authentication in react
+Front-end interviews
+
+1. TDD in js
+2. react lifecycle
+3. componentdidupdate vs componentwwillupdate
+typescript converts your code to any type of javascript by default es3
+the reason why its called typescript because its strongly typed...you must specify the type e.g  book:string, book:"harry porter" rather than let or const
+use async await instead of promises(modern)
+check hackerank code pair questionss
+practise object models
+find the number of times a param exists in a string
+permutation calculate
+the job of a constructor is to set initial state
+
+react component lifecycyle render,static cgetDerivedStateRecieveStateFromProps,constructor,componrtDidMount 
+
+
+
+js getters and setters 
+
+1.High Order array methods
+2.arrow functions
+3.destructuring
+4. es6 modukes
+5.this key word(understand it)
+6. fetch api
+7. classes
+8.separation of concerns
+9.spread operator. (this is good with state because state is immutable and you need to copy)
+how to catch error in lifecycle componentDidCatch/static getDerivedStateFromError
+
+1. ci/cd javascript
+2. tdd
+3. next js
+4.cypress js
+Migrated company websites to SSR powered by gatsbyjs and introduced tests powered
+by jest and puppeteerjs.
+5.jira
+
+On che client-side I had to build an MVC webpage over Marionettejs and by making use of the most common libraries like backbonejs, underscorejs and jquery.
+I automatised the deployment process through Grunt, a task manager, whose tasks are used to concatenate, uglify and minify the necessary files.
+
+best lifecycle methods for making api calls (componentDidMount)
+
+
+react patterns:
+
+1. context api pattern //helps you handle deeply nested props
+2. render props
+3. presentation component pattern
+
+
+
+redux middleware
+redux saga redux thumb
+generator function
+
+
+how to optimize app perfomance
+1. check if the code has errors
+2.remove unnecessary packages
+
+
+react specify exact in route
+in react match enables you to access url properties
+
+in hackerrank pyramid or staircase problem treat each part as array so ierate and create conditions
+
+
+react hooks
+
+how to optimize app:
+disable unused plugins/components
+use lazy loading certain routes
+prevent state from rerendering by componentShouldUpdate
+use arrow functions insread of regular functions
+when doing hackerank tests dont use return statement but console.log to output
+have a notes place that contains react methods nearby
+when fetching value from external api in react use async awai as you wait for the promise// fetch and then
+
+in react when you are working with functional component useEffect hook is used in place of componentDidMount and useState
+
+types of ci: 1. Travis Circle Ci and jenkins CI
+
+redux saga is a redux middleware
+
+web design trnds
+1. micro-interactions
+2. serverless i.e aws lamda///pay for what you use, you can scale quicly
+3. test driven development
+4. progressive web apps(service workers, proving offline support)
+5. Browers features like face -recog
+
+
+
+unit test jest
+integration test jenkins
+acceptance test
+
+
+ Deno does not use the NPM package manager; instead, it loads modules by referencing URLs or file paths.
+  ... Deno is secure by default, with no file, network, or environment access unless explicitly enabled. Deno dies on uncaught errors.
+
+
+
+questions asked divided into:
+    1. cilture
+    2.future success
+    3. feedback
+
+
+  will i be dealing with backend technology
+  tell me a typical work week in this position like tream meetings,stand ups
+  what would you want/expect someone in this position to accomplish in the next 90 days?
+  what is the one trait you see in people that makes them very successful in this position
+  what are some of the challenges you see in this position within the next 6 months that someone will be working on
+  what is your favorite part of workin here?
+  what is the culture in this dept like?
+  based on what we have discussed today is there any thing that will bring hesitancy in hiring me?
+  salary 70k year
+
+  if they say..you dont have experience working here..say with enthusiasim,well hats why i want to applied here,i love a new challenge and am excited to work on something new
+  and am sure i will deliver because learning something new keeps me going and so am excited to learn more and work on this
+
+
+if you want to know make an object to be called once in your app multiple times use either a factory function or a constructor function
+
+factorry function--camel-toLowerCase
+constructor function---Pascal notation
+
+
+Big O notation is a way of calculating how effecient an algorithm works//calculate runtime of function
+
+why are linked in used in lower languages?
+
+object.potototype in constructor when you want to add same value 
+linked list/node constructor
+
+Advantages of Linked list
+1. you dont have to iterate every time to find the values of the haed or tail because you know they are at the end and begining of node
+
+Big O 
+Trys to solves runtime issues in your function/algorithms
+
+Types of runtime
+1.Linear Runtime O(n)
+2.Exponential Runtime O(n^2)
+3.Binary Search(logrithmic search) O(log n)// most effeceint,its like splitting list in 2 every time you need to search
+this saves time
+
+why are linked list the best data structure to deal with memory management?In js i dont have to deal with memory management however(because i dont 
+deal with physcal memory); Enables you to break data into little pieces that can be stored in diferent areas(not a must to be store d ttogether)
+
+Depth-first traversal start from the top
+Breadth-first traversal
+
+split()= converts string to array
+join()= converts array to string
+if you want to prtect your functions from being accessed in a global scope use iifes or closures
+function declaration/function expression
+the bsst way to copy all array elements to another array is to use .concat or .slice() //pass empty function
+call and apply methods are function methods that help one make use of functions from other objects and maniulate them as their own
+
+ways of creating an object in javascript:
+1.object literal syntax;i.e const person={name:"",age:""}
+2.new keyword and object constructor i.e let days=new Object();
+3. using a constructor function
+
+
+constructor array is making use of  new Array(1,3,4)
+let x= new Array(2,3,4,5);
+
+
+Mern:
+
+Mongodb,express,react,node
+
+
+express-backend
+react -front end
+
+Front-end(react)
+1. react-router-dom
+2.state management(hooks && redux)
+3.css
+
+
+backend(api)
+1.rest api
+2.graphql api// differ in terms of format
+
+
+there are two types of react components 1.stateful and presentational components
+react portal helps you attach elememnt anywhere in your app(acts like a portal)
+react transition group is a library that helps animation
+route params
+
+createe portal
+create component then REACTDOM.createPortal(content,document.createElementById(""))
+register id in index.html
+imprort portal in whatever compoent you want to use
+route params is passing an id to route in react you can use component or render to specify component//heps filtr data {useParams hook}
+{useRef} is a react reference pointer 
+{useEffect} is a react hook that renders a function ones it changes
+{useReducer} is a react hook that works the same way as {useState} but is used to manage more complex/interconnected state
+hook is just a fuction that shares stateful logic
+app-wide state management is done by usecontext
+you can only use hooks in a functional component not in a class component
+you cannot nest a hook/put it in an if block,place them at the top of a function
+
+jwt is used for authorization and not authentication,confirms if the same user that was logged in enters data
+when working with jwt the server creates a token(jwt secret) to be used across the application whereas in session the server stores the clients data(session id),thus in 
+jwt if you have an applcation running in multiple servers thats the best as you dont have to create multiple session ids
+nodemon is a js library that watches your file changes in development
+body parser is a package that helps parse all body data
+
+
+deploy to aws:
+1.aws account
+2.terminal ssh/babun ssh
+3.pem file generated by aws
+4. ip address of ec2
+
+connect to server via ssh to ec2 instance
+CodePipeline automates the build, test, and deploy phases of your release process every time there is a code change, based on the release model you define.
+function expression,function declaration
+uuid package 4 unique id
+find() returns new object while filter returns a brand new array containing what you want in your function
+express framework highly depends on middleware you create which are just normal functions (req,res,next)
+npm i express-validaor
+async await and then() best for promises
+mongoose schema models
+hashing pwd use require bycrypt js
+require json web token
+
+
+
+mongoose helps you structure your db
+a try and catch block is used to check if there is any errors in your funtion
+
+
+
+ci/cd CodePipeline
+
+source/version control with the correct version tag
+
+ci/cd process
+1. version control= git
+2.build
+3. unit testing= break software into small chunks
+4. intergration testing= all the broken down parts are tested to see if they can work together
+5. deploy- to the staging area or server
+6. auto test
+6. deploy to production
+7. measure + validate
+
+why we call contious..we call everything in devops continous/noone has to wait for anything
+the part that we are deploying to the server is called a pipeline(deployable unit part)
+
+1.capital one bank usecase
+before ci/cd challenges:
+1.accelerate delivery of business apps while maintaining the highest quality and security standards
+
+
+solution
+1.used cloubees jenkins to provide a stable,scalable ci infrastructure,automate repeatable build process
+and manage cd pipelines from commit to deploymant
+
+result
+1. 90% of pipeline automatised
+2.development frequency increased by 1300%
+3.devs focussed on app dvpt and not infrastructure
+4.quality and security assured through repeated process
+
+
+jenkins is an automation tool for the whole process(dev lifecycle)
+we use docker to replicate the production environment by creating a container
+
+
+jenkins:
+
+1. enable jenkins and docker in your local machine
+2. login to jenkins then create jobs
+3. add git repos to the jobs
+4.configure build where you set your commands such in java maven clean install
+5.configure order of jobs i.e job 1,job 2,job 3
+6. run pipeline
+
+

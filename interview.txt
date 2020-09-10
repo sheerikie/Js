@@ -1,0 +1,18 @@
+react todolist
+The interview covered projects on my resume, technical questions, security topic and my SRE experience.
+Hr also asked for a sample code, payment requirement.
+read about the company
+As an interviewee, don’t just start typing the moment the keyboard is given to you. Start discussing your solution first.
+Ask your partner if they want to have the keyboard while you let them know your thoughts. Remind yourself that this is more of a pairing “test drive” instead of a tech interview. Which brings me to the next point …
+start explaining your solution to your interviewer using pen and paper
+make it appear you are extrmely organized
+can only apply to egroup class and series
+Try solving knapsack problem in 45'.
+	Find some pattern of digits involving factors and  multiples. Time performance matters.
+Interview Questions
+
+Linked Lists and node constructors
+list of nodes linked together in a file line
+2 types: single/double linked list
+what i understand from linked list is..its two constructors(LinkedList and Node constructor) you join the differnet node constructor to
+linked list

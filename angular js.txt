@@ -1,0 +1,34 @@
+angular js
+ng-include: wraps html
+ng-init: initializes data
+ng-repeat: for loop
+ng-switch : swich stst
+ng-if: if statement
+ng-repeat-start
+ng-repeat-end
+ng-controller
+ng-blur
+ng-disabled
+ng-class
+
+
+analytical system -stored/ not stored
+any table with fact has publish results
+grade breakdown per stream
+
+
+if mixed school display per gender
+
+
+student fact---number   //when you unpublish wxams when 
+stream fact 
+stream intake
+mathematics
+once you assign gender you have to unpublish exam
+//add gb at en
+
+
+///gb 8.30 tomorrow
+
+
+create h=java api call it

@@ -1,0 +1,10 @@
+angular 
+
+MVC: --
+
+USES modules ng-app="model" ng-init  directives
+ng-include//if state
+ng-repeat// for sta
+ng-switch//case
+ng-cloak
+ng-hide

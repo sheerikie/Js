@@ -1,0 +1,92 @@
+<html>
+  <head>
+    <style>
+      .markComplete {
+        text-decoration: line-through;
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <form onsubmit="addTod()">
+          <h2>Add todos</h2>
+          <input type="text" id="addTodo" />
+          <button type="submit" onsubmit="addTod()">Add</button>
+        </form>
+        <ul id="todos"></ul>
+      </div>
+    </div>
+    <script>
+      //add todolist
+      //mark todo as complete
+      //edit it
+      //delete todolist
+      //function me() {}
+      let todoList = ["swim", "jog", "basketball"];
+      let markComplete = false;
+      for (i = 0; i <= todoList.length; i++) {
+        let node = document.createElement("li");
+        let textNode = document.createTextNode(todoList[i]);
+        node.appendChild(textNode);
+        document.getElementById("todos").appendChild(node);
+      }
+      function addTod() {
+        item = document.getElementById("addTodo").value;
+        
+        todoList.push(item);
+        console.log(todoList);
+        return todoList;
+
+        // node.appendChild(classNode);
+      }
+      console.log("add", todoList);
+
+      const editTodo = (item) => {
+        let index = todoList.indexOf(item);
+        console.log(todoList);
+        todoList[index] = "rugby";
+      };
+      //console.log("edit", todoList);
+
+      const markTodo = (item) => {
+        let index = todoList.indexOf(item);
+        for (i = 0; i <= todoList.length; i++) {
+          if (todoList[i] != todoList[index]) {
+            console.log(todoList[i]);
+            console.log("todoList[index]", todoList[index]);
+            // markComplete = true;
+            return false;
+          } else {
+            let node = document.createElement("li");
+            node.className = "markComplete";
+            // let ne.innerHTML = `<li class="markComplete">.${item}.</li>`;
+            //let classNode = document.createAttribute("","markComplete");
+            let textNode = document.createTextNode(item);
+
+            node.appendChild(textNode);
+
+            // node.appendChild(classNode);
+            document.getElementById("todos").appendChild(node);
+          }
+        }
+      };
+      const deleteTodo = (item) => {
+        /* let index = todoList.indexOf(item);
+        let newTodo = todoList
+          .slice(0, index)
+          .concat(todoList.slice(index + 1, todoList.length));
+        console.log(newTodo);*/
+        /* var ar = [1, 2, 3, 4, 5, 6];delete ar[4];**/
+        let newTodo = todoList.filter((items) => items != item);
+        console.log("newTodo", newTodo);
+      };
+
+      // addTodo(e);
+      editTodo("soccer");
+      markTodo("swim");
+      deleteTodo("jog");
+    </script>
+  </body>
+</html>
